@@ -15,11 +15,38 @@ The Names API is a RESTful web service that allows users to interact with a data
 
 
 ## API
-Endpoints
+Endpoints:
+/getName/{lname}/{fname}:
 
+Function: Retrieves a greeting with a concatenated full name.
+HTTP Method: GET
+Required Parameters: fname and lname in the URL path.
+Example Usage: GET /getName/John/Doe
+/postName:
 
-Describe the
-available endpoints, their functions, and the required parameters.
+Function: Adds a new name to the database.
+HTTP Method: POST
+Required Parameters: JSON payload with fname and lname.
+Example Usage: POST /postName
+/getName:
+
+Function: Retrieves a list of names from the database.
+HTTP Method: GET
+Required Parameters: None
+Example Usage: GET /getName
+/updateName:
+
+Function: Updates an existing name in the database.
+HTTP Method: POST
+Required Parameters: JSON payload with id, fname, and lname.
+Example Usage: POST /updateName
+/deleteName:
+
+Function: Deletes a name from the database.
+HTTP Method: POST
+Required Parameters: JSON payload with id.
+Example Usage: POST /deleteName
+
 
 
  
