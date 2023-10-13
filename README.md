@@ -83,12 +83,17 @@ For example:
 
 
 ## Response
+API Response:
 
+The response for most endpoints contains a JSON object with a status field (either "success" or "error") and a data field. The structure of the data field varies based on the specific endpoint.
 
-Describe the
-structure of the API response, including possible status codes and JSON
-examples.
+For /postName: { "status": "success", "data": null }
 
+For /getName: { "status": "success", "data": [ {"lname": "Hortizuela", "fname": "Manny"}, {"lname": "Licayan", "fname": "Arnold"} ] }
+
+For /updateName: { "status":"success","data":null }
+
+For /deleteName: { "status":"success","data":null }.
 
  
 
@@ -96,8 +101,7 @@ examples.
 ## Usage
 
 
-Provide code
-examples or instructions on how to use your API.
+
 
 
  
