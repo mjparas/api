@@ -99,19 +99,22 @@ For /deleteName: { "status":"success","data":null }.
 
 
 ## Usage
+To retrieve a greeting with a concatenated full name, make a GET request to /getName/{lname}/{fname}.
+
+To add a new name, make a POST request to /postName with a JSON payload containing fname and lname.
+
+To retrieve a list of names, make a GET request to /getName.
+
+To update an existing name, make a POST request to /updateName with a JSON payload containing id, fname, and lname.
+
+To delete a name, make a POST request to /deleteName with a JSON payload containing id.
 
 
 
-
-
- 
 
 
 ## License
-
-
-Mention the
-license under which your API is distributed.
+No License
 
 
  
@@ -119,9 +122,6 @@ license under which your API is distributed.
 
 ## Contributors
 
-
-List
-contributors or give credit to any external libraries or resources used.
 
 
  
