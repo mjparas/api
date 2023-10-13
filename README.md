@@ -122,10 +122,11 @@ No License
 
 ## Contributors
 
-
+Prof. Manny Hortizuela & Mary Joy Paras
 
  
 
 
 ## Contact
-Information
+Contact Information:
+Gmail: parasmj17@gmail.com
