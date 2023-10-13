@@ -7,11 +7,8 @@ API NAME: MjParas
 
 
 ## API
-Description
-
-
-Provide a more
-detailed explanation of what your API does, its purpose, and any key features.
+Description: 
+The Names API is a RESTful web service that allows users to interact with a database of names. It provides various endpoints for retrieving, adding, updating, and deleting names in the database.
 
 
  
